@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.naveen</groupId>
 	<artifactId>expensetrackerapi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>expensetrackerapi</name>
 	<description>Spring Boot REST API for Expense Tracker Manager</description>
 	<properties>
@@ -34,16 +34,16 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
-		</dependency>-->
-		<dependency>
+		</dependency>
+		<!--<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -66,6 +66,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>expensetrackerapi</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
